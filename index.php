@@ -46,7 +46,7 @@ echo '<html lang="en">
 				</div>
 				<div class="col-md-8 order-md-1">
 					<p class="alert alert-primary">All empty fields will be ignored and the default client value will be used instead</p>
-					<form action="/generate.php" method="post" enctype="multipart/form-data">
+					<form action="generate.php" method="post" enctype="multipart/form-data">
 						<div class="row">
 							<div class="col-md-12 mb-3">
 								<label for="client version">Client Version</label>
@@ -87,7 +87,7 @@ echo '<html lang="en">
 							<input type="text" class="form-control" maxlength="310" name="rsa" id="rsa" placeholder="Custom RSA key">
 						</div>
 						<p class="alert alert-warning">
-							<i class="fas fa-exclamation-circle"></i>You can genera your own <a href="/generatersa.php">RSA Key</a>
+							<i class="fas fa-exclamation-circle"></i>You can genera your own <a href="generatersa.php">RSA Key</a>
 						</p>
 						<div class="row">
 							<div class="col-md-6 mb-3">
