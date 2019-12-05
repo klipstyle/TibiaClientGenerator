@@ -280,7 +280,7 @@ if(isset($xray))
 {
 	$content[0xED979] = chr(0x90); $content[0xED97A] = chr(0x90); $content[0xED983] = chr(0x90); $content[0xED984] = chr(0x90);
 }
-if(isset($extfiles))
+if(isset($extfiles)) /* client login and dbug*/
 {
 	$content[0xFBD58] = chr(0x84); $content[0xFBD59] = chr(0x6C); $content[0xFBD5A] = chr(0x01); $content[0xFBD5B] = chr(0x00);
 	$content[0xFBD34] = chr(0xE9); $content[0xFBD35] = chr(0xAB); $content[0xFBD36] = chr(0x5E); $content[0xFBD37] = chr(0x0B);
